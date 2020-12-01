@@ -1,0 +1,74 @@
+body { 
+	color: rgb(50;50;50);
+	background: #faf3dd;
+	font-family: 'Lato', sans-serif;
+}
+
+a { text-decoration: none;
+    color: #64958f;
+    transition: color 0.3s ease;
+}
+
+
+a:hover {
+  color: #065c6f;
+  text-decoration: none;
+}
+
+
+h1 { color: #065c6f;
+	font-size: 50px;
+	font-weight: 700
+}
+
+h2,h3 { color: #065c6f;
+	font-size: 20px;
+	font-weight: 400
+}
+
+.container { 
+	width: 700px;
+	margin: 40px auto; 
+
+}
+.card-white {
+	background-color: white;
+	padding: 40px ; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.img-circle {
+border-radius: 50%  
+}
+
+.btn-orange {
+	background-color: #ffbb91;
+	color:white;
+	padding: 8px 20px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	background-color: #065c6f;
+	color:white; 
+}
+
+.list-inline {
+	list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+    padding: 10px
+}
+
+#introduction p {
+	margin-bottom:40px;
+	margin-top: 20px;
+
+}
